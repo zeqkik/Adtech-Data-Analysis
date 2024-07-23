@@ -1,10 +1,10 @@
-# Project Title: AD-Tech Revenue Prediction
+# AD-Tech Revenue Prediction
 
 ## Project Overview
 This project focuses on analyzing the AD-Tech dataset derived from an advertising platform. The goal is to develop a predictive model that can predict total revenue from advertisements using both traditional Machine Learning (ML) techniques and Artificial Neural Network (ANN) models.
 
 ## Table of Contents
-- [Project Title: AD-Tech Revenue Prediction](#project-title-ad-tech-revenue-prediction)
+- [AD-Tech Revenue Prediction](#ad-tech-revenue-prediction)
   - [Project Overview](#project-overview)
   - [Table of Contents](#table-of-contents)
   - [Dataset](#dataset)
