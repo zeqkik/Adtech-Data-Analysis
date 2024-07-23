@@ -1,0 +1,18 @@
+{
+    "date": "2021-04-01T12:00:00",
+    "site_id": 123,
+    "ad_type_id": 1,
+    "geo_id": 10,
+    "device_category_id": 3,
+    "advertiser_id": 2,
+    "order_id": 72,
+    "line_item_type_id": 2,
+    "os_id": 58,
+    "integration_type_id": 1,
+    "monetization_channel_id": 1,
+    "ad_unit_id": 116,
+    "total_impressions": 1000,
+    "viewable_impressions": 800,
+    "measurable_impressions": 950,
+    "revenue_share_percent": 70
+}
