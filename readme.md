@@ -41,7 +41,7 @@ Feature engineering is a crucial step to improve the model's performance. The `m
 - Encoding categorical variables using label encoding and one-hot encoding.
 - Normalizing numerical features to ensure the ANN model performs optimally.
 
-The `model_encoders` directory contains specific scripts for label encoding (`label_encoder.py`) and one-hot encoding (`one_hot_encoder.py`). These scripts are used within `model.py` to preprocess the data before feeding it into the models.
+The `model_encoders` directory contains specific scripts for label encoding and target encoding for each encoded column. These scripts are used within `model.py` to preprocess the data before feeding it into the models.
 
 ## API Implementation
 An API is implemented using FastAPI to run the model and make predictions.
