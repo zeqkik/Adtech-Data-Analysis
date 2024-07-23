@@ -61,7 +61,7 @@ To use the project:
     ```bash
     uvicorn app:app --reload
     ```
-4. Access the API documentation at `http://127.0.0.1:8000/docs`.
+4. A model input is provided in the `input` directory
 
 ## Results
 The performance of the models is evaluated using Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R2) metrics.
