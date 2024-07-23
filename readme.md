@@ -10,6 +10,7 @@ This project focuses on analyzing the AD-Tech dataset derived from an advertisin
   - [Dataset](#dataset)
   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
   - [Model Development](#model-development)
+    - [Feature Engineering and Encoders](#feature-engineering-and-encoders)
   - [API Implementation](#api-implementation)
     - [app.py](#apppy)
   - [Usage](#usage)
@@ -34,6 +35,13 @@ Two models are developed in this project:
 2. **Artificial Neural Network Model**:
     - A Sequential model with Dense layers.
     - Data normalization and model training using Keras and TensorFlow.
+
+### Feature Engineering and Encoders
+Feature engineering is a crucial step to improve the model's performance. The `model.py` file is created to handle all feature engineering tasks, including:
+- Encoding categorical variables using label encoding and one-hot encoding.
+- Normalizing numerical features to ensure the ANN model performs optimally.
+
+The `model_encoders` directory contains specific scripts for label encoding (`label_encoder.py`) and one-hot encoding (`one_hot_encoder.py`). These scripts are used within `model.py` to preprocess the data before feeding it into the models.
 
 ## API Implementation
 An API is implemented using FastAPI to run the model and make predictions.
