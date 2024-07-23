@@ -14,7 +14,7 @@ def preprocess_data(input_data):
         except Exception as e:
             print(f"Error transforming {col}: {e}")
 
-    #Applying targed encoding to the low cardinality columns
+    #Applying target encoding to the low cardinality columns
     low_cardinality_column = ['site_id', 'ad_type_id', 'device_category_id', 'line_item_type_id', 'os_id', 'monetization_channel_id']
     input_data[low_cardinality_column] = target_encoder.transform(input_data[low_cardinality_column])
 

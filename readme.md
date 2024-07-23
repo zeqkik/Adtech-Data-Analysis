@@ -38,8 +38,8 @@ Two models are developed in this project:
 
 ### Feature Engineering and Encoders
 Feature engineering is a crucial step to improve the model's performance. The `model.py` file is created to handle all feature engineering tasks, including:
-- Encoding categorical variables using label encoding and one-hot encoding.
-- Normalizing numerical features to ensure the ANN model performs optimally.
+- Encoding categorical variables using label encoding and targed encoding.
+- Drop useless columns.
 
 The `model_encoders` directory contains specific scripts for label encoding and target encoding for each encoded column. These scripts are used within `model.py` to preprocess the data before feeding it into the models.
 
